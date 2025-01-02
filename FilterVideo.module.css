@@ -1,0 +1,66 @@
+/* FilterVideo.module.css */
+.filterListContainer {
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.486);
+    display: flex;
+    gap: 8px;
+    margin-bottom: 3px;
+    border-radius: 16px;
+    padding: 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .filterListContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .filterItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 4px;
+    border-radius: 8px;
+  }
+  
+  .filterItem:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .activeFilter {
+    background: rgba(59, 130, 246, 0.3);
+  }
+  
+  .filterPreview {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+    margin-bottom: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .filterName {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .activeFilter .filterPreview {
+    border-color: rgb(59, 130, 246);
+  }
+
+
+
+
+
+
+
+
+
